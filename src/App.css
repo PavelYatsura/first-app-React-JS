@@ -1,0 +1,42 @@
+header {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 0 50px;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  padding: 0 50px;
+}
+
+.btn {
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px
+}
+.btn:disabled {
+  cursor: not-allowed;
+}
+.active {
+  background-color: black;
+  color: white;
+}
+
+.sectionButton {
+  padding-top: 20px
+}
+
+.control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
